@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Currency Exchanger</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__logo">
+                    <img class="header__logo-img" src="img/logo.png" alt="logo">
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__nav__list">
+                        <li class="header__nav-item header__nav-active">
+                            БАНК
+                        </li>
+                        <li class="header__nav-item">
+                            БИЗНЕС
+                        </li>
+                        <li class="header__nav-item">
+                            ИНВЕСТИЦИИ
+                        </li>
+                        <li class="header__nav-item">
+                            СТРАХОВАНИЕ
+                        </li>
+                        <li class="header__nav-item">
+                            МОБАЙЛ
+                        </li>
+                        <li class="header__nav-item">
+                            ПУТЕШЕСТВИЯ
+                        </li>
+                        <li class="header__nav-item">
+                            РАЗВЛЕЧЕНИЯ
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__login">
+                    <button class="header__login-btn">ВОЙТИ</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <div class="wrapper__content">
+            <h1 class="wrapper__title">Конвертер валют онлайн</h1>
+            <div class="wrapper__app">
+                <div class="wrapper__app-block">
+                    <p class="wrapper__app-title">У меня есть </p>
+                    <ul class="wrapper__app-list">
+                        <li class="wrapper__app-item wrapper__app-active">RUB</li>
+                        <li class="wrapper__app-item">USD</li>
+                        <li class="wrapper__app-item">EURO</li>
+                        <li class="wrapper__app-item">GBP</li>
+                    </ul>
+                    <div class="wrapper__app-exchange">
+                        <input type="text" id="first-input">
+                        <p>1 RUB = 0.0135 USD</p>
+                    </div>
+                </div>
+                <div class="wrapper__app-block">
+                    <p class="wrapper__app-title">Хочу приобрести</p>
+                    <ul class="wrapper__app-list">
+                        <li class="wrapper__app-item">RUB</li>
+                        <li class="wrapper__app-item wrapper__app-active">USD</li>
+                        <li class="wrapper__app-item">EURO</li>
+                        <li class="wrapper__app-item">GBP</li>
+                    </ul>
+                    <div class="wrapper__app-exchange">
+                        <input type="text" id="second-input">
+                        <p>1 USD = 73.8896 RUB</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
